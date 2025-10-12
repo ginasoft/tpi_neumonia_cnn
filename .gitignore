@@ -1,0 +1,25 @@
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+*.env
+.env*
+.venv/
+venv/   
+
+# Modelos y checkpoints
+# data/
+*.keras
+*.h5
+*.tflite
+*.onnx
+*.pth
+models/
+outputs/*.keras
+
+.vscode/
+.idea/
